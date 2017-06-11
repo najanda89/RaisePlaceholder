@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		C2252709E3AE107AC68F7603 /* Pods_RaisePlaceholder_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B51B585260B70C43A3B4F67 /* Pods_RaisePlaceholder_Tests.framework */; };
 		CF2EE890FC389989CB1AD8E3 /* Pods_RaisePlaceholder_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AD2D5390F68A8DC41C6A5D /* Pods_RaisePlaceholder_Example.framework */; };
+		FFFEE1C51EED7AFA00832F2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFFEE1C31EED7AFA00832F2C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* RaisePlaceholder_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaisePlaceholder_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +45,7 @@
 		B6EEFB81C50A4119AFD7ACBB /* RaisePlaceholder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RaisePlaceholder.podspec; path = ../RaisePlaceholder.podspec; sourceTree = "<group>"; };
 		ED1A1FDC0379F63404B8DA5F /* Pods-RaisePlaceholder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaisePlaceholder_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RaisePlaceholder_Example/Pods-RaisePlaceholder_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FF6FCEF16F2431F3C47AD3FB /* Pods-RaisePlaceholder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaisePlaceholder_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RaisePlaceholder_Tests/Pods-RaisePlaceholder_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FFFEE1C41EED7AFA00832F2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +103,9 @@
 		607FACD21AFB9204008FA782 /* Example for RaisePlaceholder */ = {
 			isa = PBXGroup;
 			children = (
+				FFFEE1C31EED7AFA00832F2C /* Main.storyboard */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -213,6 +213,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = PAFK4RNFW2;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -246,7 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				FFFEE1C51EED7AFA00832F2C /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -383,20 +384,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				607FACDF1AFB9204008FA782 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FFFEE1C31EED7AFA00832F2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFFEE1C41EED7AFA00832F2C /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -494,6 +495,7 @@
 			baseConfigurationReference = ED1A1FDC0379F63404B8DA5F /* Pods-RaisePlaceholder_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PAFK4RNFW2;
 				INFOPLIST_FILE = RaisePlaceholder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -508,6 +510,7 @@
 			baseConfigurationReference = 4E50C37D4CC77BB9024E2618 /* Pods-RaisePlaceholder_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PAFK4RNFW2;
 				INFOPLIST_FILE = RaisePlaceholder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

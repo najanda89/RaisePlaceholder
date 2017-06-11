@@ -8,11 +8,11 @@
 
 import UIKit
 
-class RaisePlaceholder: UITextField, UITextFieldDelegate {
+public class RaisePlaceholder: UITextField, UITextFieldDelegate {
 
-    @IBInspectable var animationDuration: Double = 0.5
-    @IBInspectable var subjectColor: UIColor = UIColor.black
-    @IBInspectable var underLineColor: UIColor = UIColor.black
+    @IBInspectable public var animationDuration: Double = 0.5
+    @IBInspectable public var subjectColor: UIColor = UIColor.black
+    @IBInspectable public var underLineColor: UIColor = UIColor.black
     
     fileprivate let placeholderLabelFontSize: CGFloat = 12.0
     fileprivate var placeholderLabel: UILabel?
@@ -23,12 +23,12 @@ class RaisePlaceholder: UITextField, UITextFieldDelegate {
         delegate = self
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         delegate = self
     }
     
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         drawUnderLine()
         createPlaceholderLabel()
         self.clipsToBounds = false
@@ -61,7 +61,7 @@ class RaisePlaceholder: UITextField, UITextFieldDelegate {
         
     }
     
-    func textFieldDidBeginEditing(_ textField: UITextField) {
+    public func textFieldDidBeginEditing(_ textField: UITextField) {
         
         if let placeholderLabel = self.placeholderLabel, self.text == "" {
             
@@ -89,7 +89,7 @@ class RaisePlaceholder: UITextField, UITextFieldDelegate {
         }
     }
     
-    func textFieldDidEndEditing(_ textField: UITextField) {
+    public func textFieldDidEndEditing(_ textField: UITextField) {
         
         if let placeholderLabel = self.placeholderLabel, self.text == "" {
             let frame = placeholderLabel.frame
