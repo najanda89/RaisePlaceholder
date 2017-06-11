@@ -9,7 +9,6 @@ RaiseTextField is available through **[CocoaPods](https://cocoapods.org/)**. To 
 
 ``` 
 pod 'RaiseTextField'
-
 ```
 
 ## Usage
@@ -20,11 +19,11 @@ Insert 'RaiseTextField' in your UITextField custom class.
 
 ### Customize
 
-#####Use IBInspectable#####
+**Use IBInspectable**
 
 ![IBInspectable](https://drive.google.com/uc?id=0BziiFaGlWpr-YTdneXJyUlh4a2c)
 
-#####Use Code#####
+**Use Code**
 
 ```Swift
 raiseTextField.animationDuration = 0.5
