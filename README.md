@@ -26,6 +26,10 @@ Insert 'RaisePlaceholder' in your UITextField custom class.
 **Use Code**
 
 ```Swift
+import RaisePlaceholder
+
+@IBOutlet weak var raisePlaceholder: RaisePlaceholder!
+
 raisePlaceholder.animationDuration = 0.5
 raisePlaceholder.subjectColor = UIColor.orange
 raisePlaceholder.underLineColor = UIColor.orange
