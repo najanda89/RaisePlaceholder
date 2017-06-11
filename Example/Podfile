@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RaisePlaceholder_Example' do
+  pod 'RaisePlaceholder', :path => '../'
+
+  target 'RaisePlaceholder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
