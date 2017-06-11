@@ -2,6 +2,9 @@
 
 When you enter a text in UITextField, it displays the placeholder as a UITextField's subject.
 
+## Preview
+<img src="https://drive.google.com/uc?id=0BziiFaGlWpr-MGRrR1BNV0dCQ3c" width="350">
+
 ## Installation
 
 #### CocoaPods
