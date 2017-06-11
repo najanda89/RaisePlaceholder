@@ -33,4 +33,4 @@ raiseTextField.underLineColor = UIColor.orange
 ```
 
 ## License
-RaiseTextField is available under MIT license. See the **[LICENSE](https://github.com/najanda89/RaiseTextField/blob/master/LICENSE)** file for more info.
+RaiseTextField is available under MIT license. See the **[LICENSE](https://github.com/najanda89/RaisePlaceholder/blob/master/LICENSE)** file for more info.
