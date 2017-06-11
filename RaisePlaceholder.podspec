@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RaisePlaceholder'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of RaisePlaceholder.'
+  s.version          = '1.0.0'
+  s.summary          = 'UITextField Placeholder UI'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'When you enter a text in UITextField, it displays the placeholder as a UITextField subject.'
 
-  s.homepage         = 'https://github.com/najanda89@gmail.com/RaisePlaceholder'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/najanda89/RaisePlaceholder'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'najanda89@gmail.com' => 'najanda89@gmail.com' }
-  s.source           = { :git => 'https://github.com/najanda89@gmail.com/RaisePlaceholder.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Jiho Lee' => 'najanda89@gmail.com' }
+  s.source           = { :git => 'https://github.com/najanda89/RaisePlaceholder.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/najanda89'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'RaisePlaceholder/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'RaisePlaceholder' => ['RaisePlaceholder/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'RaisePlaceholder/Classes/*.swift'
 end
