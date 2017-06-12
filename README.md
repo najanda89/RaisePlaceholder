@@ -1,8 +1,10 @@
-![](https://img.shields.io/badge/Swift-3.1-orange.svg) ![](https://img.shields.io/badge/pod-1.0.1-blue.svg) [![LICENSE](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/najanda89/RaisePlaceholder/blob/master/LICENSE)
+![Language](https://img.shields.io/badge/Swift-3.1-orange.svg) [![Cocoapods](https://cocoapod-badges.herokuapp.com/v/RaisePlaceholder/1.0.1/badge.png)](https://github.com/najanda89/RaisePlaceholder) [![LICENSE: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 
 ## RaisePlaceholder
 
-When you enter a text in UITextField, it displays the placeholder as a UITextField's subject.
+Enter a text in UITextField, it displays the placeholder as a subject.
 
 ## Preview
 <img src="https://drive.google.com/uc?id=0BziiFaGlWpr-MGRrR1BNV0dCQ3c" width="350">
