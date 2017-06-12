@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/Swift-3.1-orange.svg) ![](https://img.shields.io/badge/pod-1.0.1-blue.svg) [![LICENSE](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/najanda89/RaisePlaceholder/blob/master/LICENSE)
+
 ## RaisePlaceholder
 
 When you enter a text in UITextField, it displays the placeholder as a UITextField's subject.
