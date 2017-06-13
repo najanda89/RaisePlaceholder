@@ -18,6 +18,12 @@ RaisePlaceholder is available through **[CocoaPods](https://cocoapods.org/)**. T
 pod 'RaisePlaceholder'
 ```
 
+#### Carthage
+
+```
+github "najanda89/RaisePlaceholder"
+```
+
 ## Usage
 
 Insert 'RaisePlaceholder' in your UITextField custom class.
