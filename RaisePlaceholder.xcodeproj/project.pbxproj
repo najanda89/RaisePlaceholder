@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		FF7172B31EF03BB0006508A8 /* RaisePlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7172B11EF03BB0006508A8 /* RaisePlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF7172BA1EF03D07006508A8 /* RaisePlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7172B91EF03D07006508A8 /* RaisePlaceholder.swift */; };
+		FF7172C01EF05CE4006508A8 /* RaisePlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7172BF1EF05CE4006508A8 /* RaisePlaceholder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF7172AE1EF03BB0006508A8 /* RaisePlaceholder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RaisePlaceholder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7172B11EF03BB0006508A8 /* RaisePlaceholder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RaisePlaceholder.h; sourceTree = "<group>"; };
 		FF7172B21EF03BB0006508A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF7172B91EF03D07006508A8 /* RaisePlaceholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RaisePlaceholder.swift; path = Classes/RaisePlaceholder.swift; sourceTree = "<group>"; };
+		FF7172BF1EF05CE4006508A8 /* RaisePlaceholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RaisePlaceholder.swift; path = Sources/RaisePlaceholder.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,8 +48,8 @@
 		FF7172B01EF03BB0006508A8 /* RaisePlaceholder */ = {
 			isa = PBXGroup;
 			children = (
-				FF7172B91EF03D07006508A8 /* RaisePlaceholder.swift */,
 				FF7172B11EF03BB0006508A8 /* RaisePlaceholder.h */,
+				FF7172BF1EF05CE4006508A8 /* RaisePlaceholder.swift */,
 				FF7172B21EF03BB0006508A8 /* Info.plist */,
 			);
 			path = RaisePlaceholder;
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF7172BA1EF03D07006508A8 /* RaisePlaceholder.swift in Sources */,
+				FF7172C01EF05CE4006508A8 /* RaisePlaceholder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
