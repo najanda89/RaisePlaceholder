@@ -1,19 +1,26 @@
-## RaiseTextField
+![Language](https://img.shields.io/badge/Swift-3.1-orange.svg) [![Cocoapods](https://cocoapod-badges.herokuapp.com/v/RaisePlaceholder/1.0.1/badge.png)](https://github.com/najanda89/RaisePlaceholder) [![LICENSE: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-When you enter a text in UITextField, it displays the placeholder as a UITextField's subject.
+
+
+## RaisePlaceholder
+
+Enter a text in UITextField, it displays the placeholder as a subject.
+
+## Preview
+<img src="https://drive.google.com/uc?id=0BziiFaGlWpr-MGRrR1BNV0dCQ3c" width="350">
 
 ## Installation
 
 #### CocoaPods
-RaiseTextField is available through **[CocoaPods](https://cocoapods.org/)**. To install it, simply add the following line to your Podfile:
+RaisePlaceholder is available through **[CocoaPods](https://cocoapods.org/)**. To install it, simply add the following line to your Podfile:
 
 ``` 
-pod 'RaiseTextField'
+pod 'RaisePlaceholder'
 ```
 
 ## Usage
 
-Insert 'RaiseTextField' in your UITextField custom class.
+Insert 'RaisePlaceholder' in your UITextField custom class.
 
 ![Subclass](https://drive.google.com/uc?id=0BziiFaGlWpr-akEzbXpiOEMtZ0U)
 
@@ -26,11 +33,15 @@ Insert 'RaiseTextField' in your UITextField custom class.
 **Use Code**
 
 ```Swift
-raiseTextField.animationDuration = 0.5
-raiseTextField.subjectColor = UIColor.orange
-raiseTextField.underLineColor = UIColor.orange
+import RaisePlaceholder
+
+@IBOutlet weak var raisePlaceholder: RaisePlaceholder!
+
+raisePlaceholder.animationDuration = 0.5
+raisePlaceholder.subjectColor = UIColor.orange
+raisePlaceholder.underLineColor = UIColor.orange
 
 ```
 
 ## License
-RaiseTextField is available under MIT license. See the **[LICENSE](https://github.com/najanda89/RaisePlaceholder/blob/master/LICENSE)** file for more info.
+RaisePlaceholder is available under MIT license. See the **[LICENSE](https://github.com/najanda89/RaisePlaceholder/blob/master/LICENSE)** file for more info.
