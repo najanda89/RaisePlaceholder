@@ -96,7 +96,7 @@ public class RaisePlaceholder: UITextField, UITextFieldDelegate {
             UIView.animate(withDuration: animationDuration, animations: {
                 
                 placeholderLabel.alpha = 1
-                placeholderLabel.textColor = UIColor(colorLiteralRed: 0, green: 0, blue: 0.0980392, alpha: 0.22)
+                placeholderLabel.textColor = UIColor(red: 0, green: 0, blue: 0.0980392, alpha: 0.22)
                 
                 placeholderLabel.frame.origin.y = frame.origin.y + placeholderLabel.frame.size.height + (self.frame.size.height / 2 - frame.size.height / 2)
                 if let pointSize = self.font?.pointSize {
